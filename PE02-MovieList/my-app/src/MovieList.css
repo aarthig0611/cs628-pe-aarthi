@@ -1,0 +1,35 @@
+.movie-list-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+  
+.movie-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.movie-genre {
+    margin: auto;
+    width: 10%;
+}
+
+.movie-list {
+    list-style: none;
+    justify-content: center;
+}
+  
+.movie-item {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid grey;
+}
+  
+.movie-item:hover {
+    transform: scale(1.05);  
+}
+    
+.movie-item h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
